@@ -34,7 +34,7 @@ body {
   padding: 10px clamp(16px, 4vw, 64px);
   background-color: #0a182b;
   border-bottom: 3px solid transparent;
-      border-image: linear-gradient(90deg, #20baff, #364eff, #3633ff) 1;
+  border-image: linear-gradient(90deg, #20baff, #364eff, #3633ff) 1;
   box-shadow: 0 8px 24px rgb(7 21 34 / 18%);
 }
 .header h3 {
