@@ -259,7 +259,8 @@ body {
   }
 }
 .portfolio-hero {
-    min-height: 220px;
+    position: relative;
+    min-height: 264px;
 
     background:
         linear-gradient(
@@ -280,16 +281,17 @@ body {
     padding: 40px 50px;
 }
 .LINE{
-   position: absolute;
-  left: 50px;
-  transform: translateY(-64px);   
+  display: block;
   background-color: #ffd333;
   width: 100px;
   height: 2px;
+  margin-bottom: 16px;
 }
 .hero-content h1 {
+    margin: 0 0 12px;
     color: white;
     font-size: 52px;
+    line-height: 1.1;
 }
 
 .hero-content h1 span {
@@ -297,8 +299,33 @@ body {
 }
 
 .hero-content p {
+    margin: 0;
     color: white;
     max-width: 450px;
+    line-height: 1.5;
+}
+
+@media (max-width: 560px) {
+  .portfolio-hero {
+    min-height: 220px;
+    padding: 32px 24px;
+  }
+
+  .hero-content {
+    width: 100%;
+  }
+
+  .LINE {
+    margin-bottom: 12px;
+  }
+
+  .hero-content h1 {
+    font-size: clamp(28px, 8vw, 36px);
+  }
+
+  .hero-content p {
+    font-size: 14px;
+  }
 }
 
 
