@@ -301,7 +301,7 @@ body {
 .hero-image {
     min-height: 390px;
     border-radius: 48% 48% 8px 8px;
-    background: url("../IMG/Custom Printing Studio Showcase (1).png") center / cover no-repeat;
+    background: url("IMG/Custom Printing Studio Showcase (1).png") center / cover no-repeat;
     box-shadow: 18px 18px 0 #f3d979;
 }
 
