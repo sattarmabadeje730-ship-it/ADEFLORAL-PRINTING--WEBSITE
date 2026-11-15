@@ -601,7 +601,16 @@ body {
 @media (max-width: 1100px) {
     .services-container {
         grid-template-columns: repeat(2, minmax(0, 1fr));
+        width: 100%;
+        height: auto;
     }
+
+    .services .link,
+    .portfolio .link {
+        margin: 12px 0 20px;
+        transform: none;
+    }
+
     .service-heading span{
         line-height: 40px;
     }
@@ -793,11 +802,45 @@ body {
 }
 
 @media (max-width: 600px) {
+    .service-heading {
+        line-height: normal;
+    }
+
+    .service-heading h2 {
+        line-height: 1.2;
+    }
+
+    .service-heading span {
+        line-height: inherit;
+    }
+
+    .service-heading-btn,
+    .portfolio-heading-btn {
+        padding-left: 0;
+    }
+
+    .services-container {
+        grid-template-columns: 1fr;
+        width: 100%;
+        height: auto;
+    }
+
     .portfolio-container {
         grid-template-columns: 1fr;
     }
+
     .portfolio-heading {
-        line-height: 42px;
+        line-height: normal;
+    }
+
+    .portfolio-heading h2 {
+        line-height: 1.2;
+    }
+}
+
+@media (max-width: 320px) {
+    body {
+        min-width: 0;
     }
 }
 

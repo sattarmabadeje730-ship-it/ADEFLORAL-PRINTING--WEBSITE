@@ -888,6 +888,11 @@ input:focus {
   .help-image {
     width: 105px;
   }
+
+  .Preview-footer-link {
+    min-width: 0;
+    white-space: normal;
+  }
 }
 .site-footer {
   display: grid;
@@ -1035,5 +1040,11 @@ input:focus {
   .footer-copyright {
     margin: 0;
     text-align: left;
+  }
+}
+
+@media (max-width: 320px) {
+  body {
+    min-width: 0;
   }
 }
