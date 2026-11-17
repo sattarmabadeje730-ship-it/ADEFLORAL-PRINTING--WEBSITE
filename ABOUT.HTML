@@ -4,9 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
     <link rel="stylesheet" href="ABOUT.CSS">
+    <link rel="stylesheet" href="Footer.css">
   </head>
   <body>
+     <div class="announcement-bar">
+      <span aria-hidden="true">✦</span>
+      PRINTED WITH CARE. MADE TO MAKE AN IMPRESSION.
+    </div>
+
     <header class="header">
       <div class="brand-lockup">
         <a class="brand" href="#">
@@ -31,7 +38,6 @@
           <li><a href="SERVICES.HTML" class="nav__link">SERVICES</a></li>
           <li><a href="ABOUT.HTML" class="nav__link">ABOUT US</a></li>
           <li><a href="PORTFOLIO.HTML" class="nav__link">PORTFOLIO</a></li>
-          <li><a href="#contact" class="nav__link">CONTACT</a></li>
         </ul>
 
         <ul class="nav__list nav__list--right">
@@ -222,77 +228,60 @@
       </section>
     </main>
 
-    <footer>
-      <img src="IMG/LOGO.png" alt="Adefloral-Print" class="footer-logo" />
-      <div class="footer-brand-copy">
-        <h3>ADEFLORAL<span>-PRINT</span></h3>
-        <p>PRINTING & GRAPHIC DESIGN</p>
-      </div>
-
-      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="main-navigation">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-
-      <nav class="footer-nav" id="main-navigation">
-        <h3>Quick Links</h3>
-        <ul class="footer-nav__list">
-          <li><a href="index.html" class="nav__link">HOME</a></li>
-          <li><a href="PORTFOLIO.HTML" class="nav__link">PORTFOLIO</a></li>
-          <li><a href="SERVICES.HTML" class="nav__link">SERVICES</a></li>
-          <li><a href="#contact" class="nav__link">CONTACT</a></li>
-          <li><a href="ABOUT.HTML" class="nav__link">ABOUT US</a></li>
-          <li><a href="ORDER.HTML" class="nav__link">MY ORDER</a></li>
-        </ul>
-      </nav>
-
-      <span class="footer-divider"></span>
-
-      <div class="footer-contact">
-        <h3>Contact Us</h3>
-        <p>Phone: <a href="tel:+2349055245226">+234 905 5245 226</a></p>
-        <p>
-          Email:
-          <a href="mailto:info@adefloralprint.com">info@adefloralprint.com</a>
-        </p>
-        <p>
-          Address:
-          <a href="https://www.google.com/maps/search/?api=1&amp;query=6%20Balogun%20Street%2C%20Lagos%2C%20Nigeria"  target="_blank" rel="noopener noreferrer">6 Balogun Street, Lagos, Nigeria</a>
-        </p>
-      </div>
-      
-      <span class="footer-divider-2"></span>
-
-      <div class="footer-socials">
-        <h3>Follow Us</h3>
-        <div class="footer-socials__links">
-
-          <a class="footer-socials__link footer-socials__link--facebook"  href="https://www.facebook.com/Adefloral%20Adeprint" target="_blank" rel="noopener noreferrer">
-         <span aria-hidden="true">f</span>
-
+    <footer class="site-footer">
+      <div class="footer-main">
+        <div class="footer-branding">
+          <a class="footer-brand" href="index.html">
+            <img src="adefloral-symbol-only.png" alt="" class="footer-logo" />
+            <span class="footer-brand-copy">ADEFLORAL<span>-PRINT</span></span>
           </a>
+          <p class="footer-tagline">PRINTING &amp; GRAPHIC DESIGN</p>
+        </div>
 
-          <a class="footer-socials__link footer-socials__link--instagram" href="https://www.instagram.com/onifadekafayatmotunrayo/"  target="_blank" rel="noopener noreferrer">
-            <img class="footer-socials__instagram-icon" src="IMG/instagram.png" alt="" />
-          </a>
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <h3>Quick Links</h3>
+          <ul class="footer-nav__list">
+            <li><a href="index.html" class="nav__link">HOME</a></li>
+            <li><a href="PORTFOLIO.HTML" class="nav__link">PORTFOLIO</a></li>
+            <li><a href="SERVICES.HTML" class="nav__link">SERVICES</a></li>
+            <li><a href="ABOUT.HTML" class="nav__link">ABOUT US</a></li>
+            <li><a href="ORDER.HTML" class="nav__link">MY ORDER</a></li>
+          </ul>
+        </nav>
 
-          <a class="footer-socials__link footer-socials__link--whatsapp" href="https://wa.me/2347068648622" target="_blank" rel="noopener noreferrer">
-  
-            <span aria-hidden="true">☎</span>
-          </a>
-          
+        <div class="footer-services">
+          <h3>Our Services</h3>
+          <ul class="footer-services__list">
+            <li>Printing</li>
+            <li>Design</li>
+            <li>Branding</li>
+            <li>Packaging</li>
+            <li>More...</li>
+          </ul>
+        </div>
+
+        <div class="footer-contact">
+          <h3>Contact info</h3>
+          <p>Phone: <a href="tel:+2349055245226">+234 905 5245 226</a></p>
+          <p>Email: <a href="mailto:info@adefloralprint.com">info@adefloralprint.com</a></p>
+          <p>
+            Address:
+            <a href="https://www.google.com/maps/search/?api=1&amp;query=6%20Balogun%20Street%2C%20Lagos%2C%20Nigeria" target="_blank" rel="noopener noreferrer">6 Balogun Street, Lagos, Nigeria</a>
+          </p>
+        </div>
+
+        <div class="footer-socials">
+          <h3>Follow Us</h3>
+          <a class="footer-socials__link footer-socials__link--facebook" href="https://www.facebook.com/Adefloral%20Adeprint" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
+          <a class="footer-socials__link footer-socials__link--instagram" href="https://www.instagram.com/onifadekafayatmotunrayo/" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+          <a class="footer-socials__link footer-socials__link--whatsapp" href="https://wa.me/2347068648622" aria-label="WhatsApp" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></a>
         </div>
       </div>
 
-      <span class="footer-divider-3"></span>
-
-       <h2>
-      &copy; 2026 ADEFLORAL-PRINT, All right reserved.
-    </h2>
-
-      <p class="footer-tagline">Print · Design · Inspire</p>
-
+      <div class="footer-bottom">
+        <p class="footer-copyright">&copy; 2026 Adefloral-Print. Website design preview</p>
+        <h3>Quality Printing. Lasting impressions.</h3>
+      </div>
     </footer>
   
   </body>

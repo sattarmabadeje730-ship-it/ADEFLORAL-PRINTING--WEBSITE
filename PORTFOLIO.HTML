@@ -11,6 +11,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="PORTFOLIO.CSS">
+    <link rel="stylesheet" href="Footer.css">
 </head>
 <body>
    <div class="announcement-bar">
@@ -25,7 +26,7 @@
           <img src="adefloral-symbol-only.png" alt="Adefloral-Print" class="logo">
         </a>
         <h3>ADEFLORAL<span>-PRINT</span></h3>
-        <p>Print . Design . inspire</p>
+        <p>Print&Graphic Design</p>
       </div>
 
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-navigation">
@@ -37,8 +38,8 @@
       <nav class="headernav" id="main-navigation">
         <ul class="nav__list">
           <li><a href="index.html" class="nav__link nav__link">HOME</a></li>
-          <li><a href="SERVICES.HTML" class="nav__link">SERVICES</a></li>
-          <li><a href="ABOUT.HTML" class="nav__link">ABOUT US</a></li>
+               <li><a href="SERVICES.HTML" class="nav__link">SERVICES</a></li>
+           <li><a href="ABOUT.HTML" class="nav__link">ABOUT US</a></li>
           <li><a href="PORTFOLIO.HTML" class="nav__link">PORTFOLIO</a></li>
          <li><a href="ORDER.HTML" class="nav__link">MY ORDER</a></li>
         </ul>
@@ -56,7 +57,7 @@
 
       <section class="portfolio-hero">
         <div class="hero-content">
-          <span class="LINE" aria-hidden="true"></span>
+          <h2>OUR PORTFOLIO,  OUR CREATIVITY</h2>
           <h1>Our <span>Portfolio</span></h1>
           <p>
             Explore our wide range of printing projects
@@ -65,60 +66,59 @@
         </div>
       </section>
 
-      <section class="portfolio-gallery" aria-label="Portfolio projects">
-        <div class="portfolio-filters" role="group" aria-label="Filter portfolio by product type">
-          <button type="button" class="portfolio-filter is-active" data-filter="all" aria-pressed="true"><span aria-hidden="true">✦</span> All Projects</button>
-          <button type="button" class="portfolio-filter" data-filter="branding" aria-pressed="false"><span aria-hidden="true">◇</span> Branding</button>
-          <button type="button" class="portfolio-filter" data-filter="marketing" aria-pressed="false"><span aria-hidden="true">◉</span> Marketing</button>
-          <button type="button" class="portfolio-filter" data-filter="apparel" aria-pressed="false"><span aria-hidden="true">♧</span> Apparel</button>
-          <button type="button" class="portfolio-filter" data-filter="packaging" aria-pressed="false"><span aria-hidden="true">⬡</span> Packaging</button>
-          <button type="button" class="portfolio-filter" data-filter="corporate" aria-pressed="false"><span aria-hidden="true">▣</span> Corporate Printing</button>
-          <button type="button" class="portfolio-filter" data-filter="promotional" aria-pressed="false"><span aria-hidden="true">✿</span> Promotional Products</button>
-          <button type="button" class="portfolio-filter" data-filter="events" aria-pressed="false"><span aria-hidden="true">▦</span> Invitations &amp; Events</button>
+      <section class="portfolio-gallery">
+        <div class="portfolio-filters" role="group">
+          <button type="button" class="portfolio-filter is-active"> All Projects</button>
+          <button type="button" class="portfolio-filter"> Branding</button>
+          <button type="button" class="portfolio-filter"> Marketing</button>
+          <button type="button" class="portfolio-filter"> Apparel</button>
+          <button type="button" class="portfolio-filter"> Packaging</button>
+          <button type="button" class="portfolio-filter"> Corporate Printing</button>
+          <button type="button" class="portfolio-filter"> Promotional Products</button>
+          <button type="button" class="portfolio-filter"> Invitations &amp; Events</button>
         </div>
 
 
-        <div class="portfolio-grid" id="portfolio-grid">
-          <article class="portfolio-card" data-category="branding"><img src="NEW-IMAGE/showcase-01.png" alt="Custom printed business cards" loading="lazy"><div class="portfolio-card-copy"><h3>Business Cards</h3></div></article>
-          <article class="portfolio-card" data-category="marketing"><img src="NEW-IMAGE/showcase-02.png" alt="Colorful promotional flyers and posters" loading="lazy"><div class="portfolio-card-copy"><h3>Flyers &amp; Posters</h3></div></article>
-          <article class="portfolio-card" data-category="apparel"><img src="NEW-IMAGE/showcase-03.png" alt="Custom branded T-shirts" loading="lazy"><div class="portfolio-card-copy"><h3>Custom T-Shirts</h3></div></article>
-          <article class="portfolio-card" data-category="packaging"><img src="NEW-IMAGE/showcase-04.png" alt="Printed retail paper bags" loading="lazy"><div class="portfolio-card-copy"><h3>Paper Bags</h3></div></article>
-          <article class="portfolio-card" data-category="events"><img src="NEW-IMAGE/showcase-05.png" alt="Printed invitation cards" loading="lazy"><div class="portfolio-card-copy"><h3>Invitation Cards</h3></div></article>
-          <article class="portfolio-card" data-category="marketing"><img src="NEW-IMAGE/showcase-06.png" alt="Printed brochures and booklets" loading="lazy"><div class="portfolio-card-copy"><h3>Brochures &amp; Booklets</h3></div></article>
-          <article class="portfolio-card" data-category="marketing"><img src="NEW-IMAGE/showcase-07.png" alt="Outdoor banners and signage" loading="lazy"><div class="portfolio-card-copy"><h3>Banners &amp; Signage</h3></div></article>
-          <article class="portfolio-card" data-category="branding"><img src="NEW-IMAGE/showcase-08.png" alt="Corporate stationery printing" loading="lazy"><div class="portfolio-card-copy"><h3>Corporate Stationery</h3></div></article>
-          <article class="portfolio-card" data-category="promotional"><img src="NEW-IMAGE/showcase-09.png" alt="Branded promotional mugs" loading="lazy"><div class="portfolio-card-copy"><h3>Promotional Mugs</h3></div></article>
-          <article class="portfolio-card" data-category="promotional"><img src="NEW-IMAGE/showcase-10.png" alt="Custom promotional pens" loading="lazy"><div class="portfolio-card-copy"><h3>Promotional Pens</h3></div></article>
-          <article class="portfolio-card" data-category="corporate"><img src="NEW-IMAGE/showcase-11.png" alt="Custom printed desk calendars" loading="lazy"><div class="portfolio-card-copy"><h3>Calendars</h3></div></article>
-          <article class="portfolio-card" data-category="branding"><img src="NEW-IMAGE/showcase-12.png" alt="Printed identification cards" loading="lazy"><div class="portfolio-card-copy"><h3>ID Cards</h3></div></article>
-          <article class="portfolio-card" data-category="promotional"><img src="NEW-IMAGE/showcase-13.png" alt="Custom branded stickers" loading="lazy"><div class="portfolio-card-copy"><h3>Stickers</h3></div></article>
-          <article class="portfolio-card" data-category="corporate"><img src="NEW-IMAGE/showcase-14.png" alt="Custom printed books" loading="lazy"><div class="portfolio-card-copy"><h3>Book Printing</h3></div></article>
-          <article class="portfolio-card" data-category="packaging"><img src="NEW-IMAGE/showcase-15.png" alt="Branded gift boxes" loading="lazy"><div class="portfolio-card-copy"><h3>Gift Boxes</h3></div></article>
-          <article class="portfolio-card" data-category="branding"><img src="NEW-IMAGE/showcase-16.png" alt="Printed receipt books" loading="lazy"><div class="portfolio-card-copy"><h3>Receipt Books</h3></div></article>
-          <article class="portfolio-card" data-category="branding"><img src="NEW-IMAGE/showcase-17.png" alt="Custom invoice books" loading="lazy"><div class="portfolio-card-copy"><h3>Invoice Books</h3></div></article>
-          <article class="portfolio-card" data-category="branding"><img src="NEW-IMAGE/showcase-18.png" alt="Branded notepads" loading="lazy"><div class="portfolio-card-copy"><h3>Notepads</h3></div></article>
-          <article class="portfolio-card" data-category="branding"><img src="NEW-IMAGE/showcase-19.png" alt="Printed certificates" loading="lazy"><div class="portfolio-card-copy"><h3>Certificates</h3></div></article>
-          <article class="portfolio-card" data-category="branding"><img src="NEW-IMAGE/showcase-20.png" alt="Custom document folders" loading="lazy"><div class="portfolio-card-copy"><h3>Document Folders</h3></div></article>
-          <article class="portfolio-card" data-category="events"><img src="NEW-IMAGE/showcase-21.png" alt="Printed event tickets" loading="lazy"><div class="portfolio-card-copy"><h3>Event Tickets</h3></div></article>
-          <article class="portfolio-card" data-category="events"><img src="NEW-IMAGE/showcase-22.png" alt="Custom event wristbands" loading="lazy"><div class="portfolio-card-copy"><h3>Wristbands</h3></div></article>
-          <article class="portfolio-card" data-category="events"><img src="NEW-IMAGE/showcase-23.png" alt="Printed event programs" loading="lazy"><div class="portfolio-card-copy"><h3>Event Programs</h3></div></article>
-          <article class="portfolio-card" data-category="events"><img src="NEW-IMAGE/showcase-24.png" alt="Printed menu cards" loading="lazy"><div class="portfolio-card-copy"><h3>Menu Cards</h3></div></article>
-          <article class="portfolio-card" data-category="marketing"><img src="NEW-IMAGE/showcase-25.png" alt="Printed table tent displays" loading="lazy"><div class="portfolio-card-copy"><h3>Table Tents</h3></div></article>
-          <article class="portfolio-card" data-category="branding"><img src="NEW-IMAGE/showcase-26.png" alt="Custom printed name badges" loading="lazy"><div class="portfolio-card-copy"><h3>Name Badges</h3></div></article>
-          <article class="portfolio-card" data-category="marketing"><img src="NEW-IMAGE/showcase-27.png" alt="Large-format printed billboards" loading="lazy"><div class="portfolio-card-copy"><h3>Billboards</h3></div></article>
-          <article class="portfolio-card" data-category="marketing"><img src="NEW-IMAGE/showcase-28.png" alt="Custom vehicle branding" loading="lazy"><div class="portfolio-card-copy"><h3>Vehicle Branding</h3></div></article>
-          <article class="portfolio-card" data-category="marketing"><img src="NEW-IMAGE/showcase-29.png" alt="Printed shop window graphics" loading="lazy"><div class="portfolio-card-copy"><h3>Window Graphics</h3></div></article>
-          <article class="portfolio-card" data-category="marketing"><img src="NEW-IMAGE/showcase-30.png" alt="Custom printed wall graphics" loading="lazy"><div class="portfolio-card-copy"><h3>Wall Graphics</h3></div></article>
-          <article class="portfolio-card" data-category="marketing"><img src="NEW-IMAGE/showcase-31.png" alt="Printed directional signs" loading="lazy"><div class="portfolio-card-copy"><h3>Directional Signs</h3></div></article>
-          <article class="portfolio-card" data-category="marketing"><img src="NEW-IMAGE/showcase-32.png" alt="Printed exhibition backdrops" loading="lazy"><div class="portfolio-card-copy"><h3>Exhibition Backdrops</h3></div></article>
-          <article class="portfolio-card" data-category="packaging"><img src="NEW-IMAGE/showcase-33.png" alt="Custom sticker sheets" loading="lazy"><div class="portfolio-card-copy"><h3>Sticker Sheets</h3></div></article>
-          <article class="portfolio-card" data-category="apparel"><img src="NEW-IMAGE/showcase-34.png" alt="Branded clothing hang tags" loading="lazy"><div class="portfolio-card-copy"><h3>Clothing Hang Tags</h3></div></article>
-          <article class="portfolio-card" data-category="packaging"><img src="NEW-IMAGE/showcase-35.png" alt="Printed wrapping paper" loading="lazy"><div class="portfolio-card-copy"><h3>Wrapping Paper</h3></div></article>
-          <article class="portfolio-card" data-category="packaging"><img src="NEW-IMAGE/showcase-36.png" alt="Custom printed packaging tape" loading="lazy"><div class="portfolio-card-copy"><h3>Packaging Tape</h3></div></article>
-          <article class="portfolio-card" data-category="corporate"><img src="NEW-IMAGE/showcase-37.png" alt="Custom photo prints" loading="lazy"><div class="portfolio-card-copy"><h3>Photo Prints</h3></div></article>
-          <article class="portfolio-card" data-category="corporate"><img src="NEW-IMAGE/showcase-38.png" alt="Printed photo books" loading="lazy"><div class="portfolio-card-copy"><h3>Photo Books</h3></div></article>
-          <article class="portfolio-card" data-category="branding"><img src="NEW-IMAGE/showcase-39.png" alt="Custom branded rubber stamps" loading="lazy"><div class="portfolio-card-copy"><h3>Rubber Stamps</h3></div></article>
-          <article class="portfolio-card" data-category="apparel"><img src="NEW-IMAGE/showcase-40.png" alt="Branded apparel and merchandise" loading="lazy"><div class="portfolio-card-copy"><h3>Apparel &amp; Merchandise</h3></div></article>
+        <div class="portfolio-grid" id="portfolio-grid"> 
+          <article class="portfolio-card"><img src="NEW-IMAGE/showcase-01.png" alt="Custom printed business cards" loading="lazy"><div class="portfolio-card-copy"><h3>Business Cards</h3></div></article>
+          <article class="portfolio-card"><img src="NEW-IMAGE/showcase-02.png" alt="Colorful promotional flyers and posters" loading="lazy"><div class="portfolio-card-copy"><h3>Flyers &amp; Posters</h3></div></article>
+          <article class="portfolio-card"><img src="NEW-IMAGE/showcase-03.png" alt="Custom branded T-shirts" loading="lazy"><div class="portfolio-card-copy"><h3>Custom T-Shirts</h3></div></article>
+          <article class="portfolio-card"><img src="NEW-IMAGE/showcase-04.png" alt="Printed retail paper bags" loading="lazy"><div class="portfolio-card-copy"><h3>Paper Bags</h3></div></article>
+          <article class="portfolio-card"><img src="NEW-IMAGE/showcase-05.png" alt="Printed invitation cards" loading="lazy"><div class="portfolio-card-copy"><h3>Invitation Cards</h3></div></article>
+          <article class="portfolio-card"><img src="NEW-IMAGE/showcase-06.png" alt="Printed brochures and booklets" loading="lazy"><div class="portfolio-card-copy"><h3>Brochures &amp; Booklets</h3></div></article>
+          <article class="portfolio-card"><img src="NEW-IMAGE/showcase-07.png" alt="Outdoor banners and signage" loading="lazy"><div class="portfolio-card-copy"><h3>Banners &amp; Signage</h3></div></article>
+          <article class="portfolio-card"><img src="NEW-IMAGE/showcase-08.png" alt="Corporate stationery printing" loading="lazy"><div class="portfolio-card-copy"><h3>Corporate Stationery</h3></div></article>
+          <article class="portfolio-card"><img src="NEW-IMAGE/showcase-09.png" alt="Branded promotional mugs" loading="lazy"><div class="portfolio-card-copy"><h3>Promotional Mugs</h3></div></article>
+          <article class="portfolio-card"><img src="NEW-IMAGE/showcase-10.png" alt="Custom promotional pens" loading="lazy"><div class="portfolio-card-copy"><h3>Promotional Pens</h3></div></article>
+          <article class="portfolio-card"><img src="NEW-IMAGE/showcase-11.png" alt="Custom printed desk calendars" loading="lazy"><div class="portfolio-card-copy"><h3>Calendars</h3></div></article>
+          <article class="portfolio-card"><img src="NEW-IMAGE/showcase-12.png" alt="Printed identification cards" loading="lazy"><div class="portfolio-card-copy"><h3>ID Cards</h3></div></article>
+          <article class="portfolio-card"><img src="NEW-IMAGE/showcase-13.png" alt="Custom branded stickers" loading="lazy"><div class="portfolio-card-copy"><h3>Stickers</h3></div></article>
+          <article class="portfolio-card"><img src="NEW-IMAGE/showcase-14.png" alt="Custom printed books" loading="lazy"><div class="portfolio-card-copy"><h3>Book Printing</h3></div></article>
+          <article class="portfolio-card"><img src="NEW-IMAGE/showcase-15.png" alt="Branded gift boxes" loading="lazy"><div class="portfolio-card-copy"><h3>Gift Boxes</h3></div></article>
+          <article class="portfolio-card"><img src="NEW-IMAGE/showcase-16.png" alt="Printed receipt books" loading="lazy"><div class="portfolio-card-copy"><h3>Receipt Books</h3></div></article>
+          <article class="portfolio-card"><img src="NEW-IMAGE/showcase-17.png" alt="Custom invoice books" loading="lazy"><div class="portfolio-card-copy"><h3>Invoice Books</h3></div></article>
+          <article class="portfolio-card"><img src="NEW-IMAGE/showcase-18.png" alt="Branded notepads" loading="lazy"><div class="portfolio-card-copy"><h3>Notepads</h3></div></article>
+          <article class="portfolio-card"><img src="NEW-IMAGE/showcase-19.png" alt="Printed certificates" loading="lazy"><div class="portfolio-card-copy"><h3>Certificates</h3></div></article>
+          <article class="portfolio-card"><img src="NEW-IMAGE/showcase-20.png" alt="Custom document folders" loading="lazy"><div class="portfolio-card-copy"><h3>Document Folders</h3></div></article>
+          <article class="portfolio-card"><img src="NEW-IMAGE/showcase-21.png" alt="Printed event tickets" loading="lazy"><div class="portfolio-card-copy"><h3>Event Tickets</h3></div></article>
+          <article class="portfolio-card"><img src="NEW-IMAGE/showcase-22.png" alt="Custom event wristbands" loading="lazy"><div class="portfolio-card-copy"><h3>Wristbands</h3></div></article>
+          <article class="portfolio-card"><img src="NEW-IMAGE/showcase-23.png" alt="Printed event programs" loading="lazy"><div class="portfolio-card-copy"><h3>Event Programs</h3></div></article>
+          <article class="portfolio-card"><img src="NEW-IMAGE/showcase-24.png" alt="Printed menu cards" loading="lazy"><div class="portfolio-card-copy"><h3>Menu Cards</h3></div></article>
+          <article class="portfolio-card"><img src="NEW-IMAGE/showcase-25.png" alt="Printed table tent displays" loading="lazy"><div class="portfolio-card-copy"><h3>Table Tents</h3></div></article>
+          <article class="portfolio-card"><img src="NEW-IMAGE/showcase-26.png" alt="Custom printed name badges" loading="lazy"><div class="portfolio-card-copy"><h3>Name Badges</h3></div></article>
+          <article class="portfolio-card"><img src="NEW-IMAGE/showcase-27.png" alt="Large-format printed billboards" loading="lazy"><div class="portfolio-card-copy"><h3>Billboards</h3></div></article>
+          <article class="portfolio-card"><img src="NEW-IMAGE/showcase-28.png" alt="Custom vehicle branding" loading="lazy"><div class="portfolio-card-copy"><h3>Vehicle Branding</h3></div></article>
+          <article class="portfolio-card"><img src="NEW-IMAGE/showcase-29.png" alt="Printed shop window graphics" loading="lazy"><div class="portfolio-card-copy"><h3>Window Graphics</h3></div></article>
+          <article class="portfolio-card"><img src="NEW-IMAGE/showcase-30.png" alt="Custom printed wall graphics" loading="lazy"><div class="portfolio-card-copy"><h3>Wall Graphics</h3></div></article>
+          <article class="portfolio-card"><img src="NEW-IMAGE/showcase-31.png" alt="Printed directional signs" loading="lazy"><div class="portfolio-card-copy"><h3>Directional Signs</h3></div></article>
+          <article class="portfolio-card"><img src="NEW-IMAGE/showcase-32.png" alt="Printed exhibition backdrops" loading="lazy"><div class="portfolio-card-copy"><h3>Exhibition Backdrops</h3></div></article>
+          <article class="portfolio-card"><img src="NEW-IMAGE/showcase-33.png" alt="Custom sticker sheets" loading="lazy"><div class="portfolio-card-copy"><h3>Sticker Sheets</h3></div></article>
+          <article class="portfolio-card"><img src="NEW-IMAGE/showcase-34.png" alt="Branded clothing hang tags" loading="lazy"><div class="portfolio-card-copy"><h3>Clothing Hang Tags</h3></div></article>
+          <article class="portfolio-card"><img src="NEW-IMAGE/showcase-35.png" alt="Printed wrapping paper" loading="lazy"><div class="portfolio-card-copy"><h3>Wrapping Paper</h3></div></article>
+          <article class="portfolio-card"><img src="NEW-IMAGE/showcase-36.png" alt="Custom printed packaging tape" loading="lazy"><div class="portfolio-card-copy"><h3>Packaging Tape</h3></div></article>
+          <article class="portfolio-card"><img src="NEW-IMAGE/showcase-37.png" alt="Custom photo prints" loading="lazy"><div class="portfolio-card-copy"><h3>Photo Prints</h3></div></article>
+          <article class="portfolio-card"><img src="NEW-IMAGE/showcase-39.png" alt="Custom branded rubber stamps" loading="lazy"><div class="portfolio-card-copy"><h3>Rubber Stamps</h3></div></article>
+          <article class="portfolio-card"><img src="NEW-IMAGE/showcase-40.png" alt="Branded apparel and merchandise" loading="lazy"><div class="portfolio-card-copy"><h3>Apparel &amp; Merchandise</h3></div></article>
         </div>
       </section>
 
@@ -127,9 +127,13 @@
         <div>
           <p>READY TO GET STARTED?</p>
           <h2>Let's Bring Your <span>Ideas to Life!</span></h2>
-          <a href="ORDER.HTML">Contact Us <span aria-hidden="true">›</span></a>
+          <h3>Contact us today for professional printing services.</h3>
+
         </div>
+        
+          <a href="ORDER.HTML">Contact Us <span aria-hidden="true">›</span></a>
       </section>
+
     </main>
 
     <footer class="site-footer">
@@ -142,10 +146,10 @@
             <span class="footer-brand-copy">ADEFLORAL<span>-PRINT</span></span>
           </a>
 
-          <p class="footer-tagline">Print  .  Design  .  inspire</p>
+          <p class="footer-tagline">PRINTING & GRAPHIC DESIGN</p>
         </div>
 
-        <nav class="footer-nav" id="main-navigation">
+        <nav class="footer-nav" aria-label="Footer navigation">
           <h3>Quick Links</h3>
           <ul class="footer-nav__list">
             <li><a href="index.html" class="nav__link">HOME</a></li>
@@ -169,18 +173,23 @@
 
       <div class="footer-contact">
         <h3>Contact info</h3>
-        <p>Phone: <a href="tel:+2349055245226">+234 905 5245 226</a></p>
+        <p>Phone: 
+          <a href="tel:+2349055245226">+234 905 5245 226</a>
+        </p>
+
         <p>
           Email:
           <a href="mailto:info@adefloralprint.com">info@adefloralprint.com</a>
         </p>
+
         <p>
           Address:
           <a href="https://www.google.com/maps/search/?api=1&amp;query=6%20Balogun%20Street%2C%20Lagos%2C%20Nigeria"  target="_blank" rel="noopener noreferrer">6 Balogun Street, Lagos, Nigeria</a>
         </p>
       </div> 
 
-         <div class="footer-socials" aria-label="Social media">
+         <div class="footer-socials">
+          <h3>Follow Us</h3>
           <a class="footer-socials__link footer-socials__link--facebook" href="https://www.facebook.com/Adefloral%20Adeprint" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
           <a class="footer-socials__link footer-socials__link--instagram" href="https://www.instagram.com/onifadekafayatmotunrayo/" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
           <a class="footer-socials__link footer-socials__link--whatsapp" href="https://wa.me/2347068648622" aria-label="WhatsApp" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></a>
@@ -194,27 +203,5 @@
       </div>
     </footer>
 
-     <!-- <script>
-      const filterButtons = document.querySelectorAll(".portfolio-filter");
-      const portfolioCards = document.querySelectorAll(".portfolio-card");
-
-      filterButtons.forEach((button) => {
-        button.addEventListener("click", () => {
-          const selectedCategory = button.dataset.filter;
-
-          filterButtons.forEach((filter) => {
-            const isSelected = filter === button;
-            filter.classList.toggle("is-active", isSelected);
-            filter.setAttribute("aria-pressed", String(isSelected));
-          });
-
-          portfolioCards.forEach((card) => {
-            card.hidden =
-              selectedCategory !== "all" &&
-              card.dataset.category !== selectedCategory;
-          });
-        });
-      }); 
-    </script> -->
 </body>
 </html>

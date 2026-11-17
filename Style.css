@@ -10,11 +10,12 @@ body {
 }
 .announcement-bar{
     padding: 10px 16px;
-    background: #3a2e1c;
-    color: #ffd333;
+    background: #000;
+    color: white;
     text-align: center;
     font-size: 0.8rem;
     letter-spacing: 0.08em;
+    border-bottom: 1px solid white;
 }
 .announcement-bar span {
     margin: 0 8px;
@@ -31,7 +32,7 @@ body {
     padding: 10px clamp(16px, 4vw, 64px);
     background-color: #131212;
     border-bottom: 3px solid transparent;
-    border-image: linear-gradient(90deg, #20baff, #ff368f, #ffd333) 1;
+    border-image: linear-gradient(90deg, #d0d2d3, #d2cecf, #c7c7c3) 1;
     box-shadow: 0 8px 24px rgb(7 21 34 / 18%);
 }
 

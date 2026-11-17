@@ -6,8 +6,14 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="ORDER.CSS">
+    <link rel="stylesheet" href="Footer.css">
 </head>
 <body>
+  <div class="announcement-bar">
+      <span aria-hidden="true">✦</span>
+      PRINTED WITH CARE. MADE TO MAKE AN IMPRESSION.
+    </div>
+
      <header class="header">
       <div class="brand-lockup">
         <a class="brand" href="#">
@@ -32,7 +38,7 @@
 
         <ul class="nav__list nav__list--right">
           <li>
-            <a href="https://wa.me/2347068648622" class="nav__link nav__link--whatsapp" target="_blank" rel="noopener noreferrer">Let's Talk</a>
+            <a href="https://w a.me/2347068648622" class="nav__link nav__link--whatsapp" target="_blank" rel="noopener noreferrer">Let's Talk</a>
           </li>
         </ul>
 
@@ -40,7 +46,8 @@
     </header>
 
     <main class="container">
-      <section class="order-hero">
+      <section class="order-flow" aria-label="Order lookup and tracking preview">
+      <div class="order-hero">
         <img src="NEW-IMAGE/ORDER HERO.png" alt="A production printer surrounded by colorful printed materials" class="ORDER-image"/>
 
         <div class="ORDER">
@@ -90,16 +97,9 @@
                 </h3>
         </form>
         </div>
-      </section>
+      </div>
 
-      <section class="preview">
-
-        <div class="preview-header">
-        <p>A LITTLE PREVIEW</p>
-        <h1>Here's what your update <span>Could look like.</span></h1>
-        <h3>SAMPLE ORDER</h3>
-        </div>
-
+      <div class="preview">
         <div class="preview-content">
 
           <div class="content">
@@ -140,6 +140,7 @@
 
   </div>
 
+      </div>
       </section>
 
    <section class="Help">
@@ -171,28 +172,57 @@
 
 <footer class="site-footer">
   <div class="footer-main">
-    <a class="footer-brand" href="index.html" aria-label="Adefloral-Print home">
-      <img src="IMG/LOGO.png" alt="" class="footer-logo" />
-      <span class="footer-brand-copy">ADEFLORAL<span>-PRINT</span></span>
-    </a>
-
-    <p class="footer-tagline">Good ideas deserve a great print.</p>
+    <div class="footer-branding">
+      <a class="footer-brand" href="index.html">
+        <img src="adefloral-symbol-only.png" alt="" class="footer-logo" />
+        <span class="footer-brand-copy">ADEFLORAL<span>-PRINT</span></span>
+      </a>
+      <p class="footer-tagline">PRINTING &amp; GRAPHIC DESIGN</p>
+    </div>
 
     <nav class="footer-nav" aria-label="Footer navigation">
-      <a href="SERVICES.HTML">Services</a>
-      <a href="ABOUT.HTML">About us</a>
-      <a href="PORTFOLIO.HTML">Portfolio</a>
-      <a href="ORDER.HTML">My order</a>
+      <h3>Quick Links</h3>
+      <ul class="footer-nav__list">
+        <li><a href="index.html" class="nav__link">HOME</a></li>
+        <li><a href="PORTFOLIO.HTML" class="nav__link">PORTFOLIO</a></li>
+        <li><a href="SERVICES.HTML" class="nav__link">SERVICES</a></li>
+        <li><a href="ABOUT.HTML" class="nav__link">ABOUT US</a></li>
+        <li><a href="ORDER.HTML" class="nav__link">MY ORDER</a></li>
+      </ul>
     </nav>
-  </div>
 
-  <div class="footer-bottom">
-    <p class="footer-copyright">&copy; 2026 Adefloral-Print. Website design preview</p>
-    <div class="footer-socials" aria-label="Social media">
+    <div class="footer-services">
+      <h3>Our Services</h3>
+      <ul class="footer-services__list">
+        <li>Printing</li>
+        <li>Design</li>
+        <li>Branding</li>
+        <li>Packaging</li>
+        <li>More...</li>
+      </ul>
+    </div>
+
+    <div class="footer-contact">
+      <h3>Contact info</h3>
+      <p>Phone: <a href="tel:+2349055245226">+234 905 5245 226</a></p>
+      <p>Email: <a href="mailto:info@adefloralprint.com">info@adefloralprint.com</a></p>
+      <p>
+        Address:
+        <a href="https://www.google.com/maps/search/?api=1&amp;query=6%20Balogun%20Street%2C%20Lagos%2C%20Nigeria" target="_blank" rel="noopener noreferrer">6 Balogun Street, Lagos, Nigeria</a>
+      </p>
+    </div>
+
+    <div class="footer-socials">
+      <h3>Follow Us</h3>
       <a class="footer-socials__link footer-socials__link--facebook" href="https://www.facebook.com/Adefloral%20Adeprint" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
       <a class="footer-socials__link footer-socials__link--instagram" href="https://www.instagram.com/onifadekafayatmotunrayo/" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
       <a class="footer-socials__link footer-socials__link--whatsapp" href="https://wa.me/2347068648622" aria-label="WhatsApp" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></a>
     </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p class="footer-copyright">&copy; 2026 Adefloral-Print. Website design preview</p>
+    <h3>Quality Printing. Lasting impressions.</h3>
   </div>
 </footer>
 
