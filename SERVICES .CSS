@@ -44,6 +44,20 @@ body {
     align-items: center;
 }
 
+.brand-lockup {
+    display: flex;
+    flex: 0 0 auto;
+    align-items: center;
+    gap: 12px;
+}
+
+.brand-copy {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    white-space: nowrap;
+}
+
 .menu-toggle {
     display: none;
     padding: 10px;
@@ -69,20 +83,18 @@ body {
     border-radius: 6px;
     object-fit: contain;
 }
-.header h2{
-    position: relative;
-   right: 6px;
-   bottom: 5px;
+.brand-copy h2 {
+    margin: 0;
     color: white;
     font-size: 20px;
 }
-.header h2 span{
+
+.brand-copy h2 span {
     color: #f92c81;
 }
-.header h3{
-    position: relative;
-    top: 16px;
-    right: 200px;
+
+.brand-copy p {
+    margin: 0;
     color: white;
     font-size: 10px;
 }
@@ -103,7 +115,6 @@ body {
     margin: 0;
     padding: 0;
     list-style: none;
-    transform: translateX(-90px);
 }
 
 .nav__link {
@@ -115,6 +126,7 @@ body {
     font-weight: 600;
     text-decoration: none;
     transition: color 160ms ease, background-color 160ms ease;
+    white-space: nowrap;
 }
 
 .nav__link:not(.nav__link--contact)::after {
